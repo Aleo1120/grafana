@@ -25,7 +25,7 @@ export const useDescription = (bucketAgg: BucketAggregation): string => {
       }
 
       if (minDocCount > 0) {
-        description += `Min Doc Count: ${minDocCount}`;
+        description += `Min Doc Count: ${minDocCount}, `;
       }
 
       description += 'Order by: ';
